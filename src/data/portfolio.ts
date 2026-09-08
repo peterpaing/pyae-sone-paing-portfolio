@@ -2,6 +2,7 @@ import { Javascript,_React,TypescriptIcon,NextjsIcon,TailwindIcon} from "@dev.ic
 import type { ComponentType } from "react"
 import CurrencyExchangeImage from "./../assets/projects/money-exchange.png"
 import KanbanTaskManagementImage from "./../assets/projects/KanbanTaskManagement.png"
+import AudiophileStoreImage from "./../assets/projects/audiophile.png"
 import FrontEnd from "./../assets/certificates/Front-end.png"
 import JavaScript from "./../assets/certificates/JavaScript.png"
 import React from "./../assets/certificates/React.png"
@@ -34,80 +35,117 @@ export type Project = {
   link : Link
 }
 
-export const projects:Project[] =[
-    {
-        id:1,
-        image: CurrencyExchangeImage,
-        title:'Currency Exchange App',
-        description:'A responsive currency exchange app built to make checking and comparing exchange rates simple. Users can convert currencies, compare multiple currencies, save favorite pairs, and view their conversion history.',
-        year:2026,
-        role:'Front-end Developer',
-        technologies: [
-            {
-              name: "JavaScript",
-              icon: Javascript,
-            },
-            {
-              name: "React",
-              icon: _React,
-            },
-            {
-              name: "TypeScript",
-              icon: TypescriptIcon,
-            },
-            {
-              name: "Next.js",
-              icon: NextjsIcon,
-            },
-            {
-              name: "Tailwind CSS",
-              icon: TailwindIcon,
-            },
-            {
-              name: "Frankfurter API",
-            },
-        ],
-        link: {
-            demo : 'https://currency-exchange-dashboard-puce.vercel.app/',
-            github:'https://github.com/peterpaing/currency-exchange-dashboard.git'
-
-        }
+export const projects: Project[] = [
+  {
+    id: 1,
+    image: AudiophileStoreImage,
+    title: "Audiophile Store",
+    description:
+      "A modern e-commerce storefront for a premium audio brand, built to showcase clean architecture and exceptional UX. Features responsive Figma-to-code translation, dynamic product routing, persistent cart state via Local Storage, and an accessible, friction-free checkout flow.",
+    year: 2026,
+    role: "Front-end Developer",
+    technologies: [
+      {
+        name: "React",
+        icon: _React,
+      },
+      {
+        name: "TypeScript",
+        icon: TypescriptIcon,
+      },
+      {
+        name: "Next.js",
+        icon: NextjsIcon,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: TailwindIcon,
+      },
+      {
+        name: "React Icons",
+      },
+      {
+        name: "Local Storage",
+      },
+    ],
+    link: {
+      demo: "https://audiophile-store-eight.vercel.app",
+      github: "https://github.com/peterpaing/audiophile-store",
     },
-    {
-          id: 2,
-          image: KanbanTaskManagementImage,
-          title: "Kanban Task Management App",
-          description:
-            "A responsive Kanban task management app for organizing work across custom boards and columns. Users can create, edit, and delete boards and tasks, manage subtasks, update task statuses, switch between light and dark mode, and keep their data saved in browser local storage.",
-          year: 2026,
-          role: "Front-end Developer",
-          technologies: [
-            {
-              name: "React",
-              icon: _React,
-            },
-            {
-              name: "TypeScript",
-              icon: TypescriptIcon,
-            },
-            {
-              name: "Next.js",
-              icon: NextjsIcon,
-            },
-            {
-              name: "Tailwind CSS",
-              icon: TailwindIcon,
-            },
-            {
-              name: "Local Storage",
-            },
-          ],
-          link: {
-            demo: 'https://kanban-task-management-nine-rho.vercel.app/',
-            github:'https://github.com/peterpaing/kanban-task-management.git',
-          },
+  },
+  {
+    id: 2,
+    image: CurrencyExchangeImage,
+    title: "Currency Exchange App",
+    description:
+      "An interactive currency dashboard that transforms real-time exchange-rate data into instant conversions and clear financial comparisons. Built for a tailored user experience, it features quick currency search, custom saved pairs, and a persistent conversion history powered by Local Storage.",
+    year: 2026,
+    role: "Front-end Developer",
+    technologies: [
+      {
+        name: "JavaScript",
+        icon: Javascript,
+      },
+      {
+        name: "React",
+        icon: _React,
+      },
+      {
+        name: "TypeScript",
+        icon: TypescriptIcon,
+      },
+      {
+        name: "Next.js",
+        icon: NextjsIcon,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: TailwindIcon,
+      },
+      {
+        name: "Frankfurter API",
+      },
+    ],
+    link: {
+      demo: "https://currency-exchange-dashboard-puce.vercel.app/",
+      github: "https://github.com/peterpaing/currency-exchange-dashboard",
     },
-]
+  },
+  {
+    id: 3,
+    image: KanbanTaskManagementImage,
+    title: "Kanban Task Management App",
+    description:
+      "A fully responsive Kanban productivity app designed to streamline project planning and task management. Users can create customizable boards, track subtasks, toggle themes, and effortlessly manage their workflows, all backed by seamless Local Storage persistence for a reliable, instantly available workspace.",
+    year: 2026,
+    role: "Front-end Developer",
+    technologies: [
+      {
+        name: "React",
+        icon: _React,
+      },
+      {
+        name: "TypeScript",
+        icon: TypescriptIcon,
+      },
+      {
+        name: "Next.js",
+        icon: NextjsIcon,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: TailwindIcon,
+      },
+      {
+        name: "Local Storage",
+      },
+    ],
+    link: {
+      demo: "https://kanban-task-management-nine-rho.vercel.app/",
+      github: "https://github.com/peterpaing/kanban-task-management",
+    },
+  },
+];
 
 export const certificates = [
   {
