@@ -62,9 +62,6 @@ export const projects: Project[] = [
         icon: TailwindIcon,
       },
       {
-        name: "React Icons",
-      },
-      {
         name: "Local Storage",
       },
     ],
