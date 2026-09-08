@@ -34,7 +34,7 @@ export default function Footer() {
       <p className="text-sm leading-5 text-neutral-800 dark:text-neutral-400 md:text-base">
         For more info, here’s my{" "}
         <a
-          href="/Pyae_Sone_Paing_Junior_Frontend_Developer_Resume.pdf"
+          href="/Pyae_Sone_Paing_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View Pyae Sone Paing's resume PDF (opens in a new tab)"
