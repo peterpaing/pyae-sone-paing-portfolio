@@ -3,6 +3,7 @@ import type { ComponentType } from "react"
 import CurrencyExchangeImage from "./../assets/projects/money-exchange.png"
 import KanbanTaskManagementImage from "./../assets/projects/KanbanTaskManagement.png"
 import AudiophileStoreImage from "./../assets/projects/audiophile.png"
+import ArchStudioImage from "./../assets/projects/archStudio.png"
 import FrontEnd from "./../assets/certificates/Front-end.png"
 import JavaScript from "./../assets/certificates/JavaScript.png"
 import React from "./../assets/certificates/React.png"
@@ -71,7 +72,38 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
+  id: 2,
+  image: ArchStudioImage,
+  title: "Arch Studio",
+  description:
+    "A multi-page portfolio website for a modern architecture firm, built to showcase high-fidelity design translation and seamless user navigation. Featuring responsive image galleries, dynamic page routing, a strictly validated contact form, and an interactive location map, this project demonstrates a strong command of modern UI layouts and responsive web design.",
+  year: 2026,
+  role: "Front-end Developer",
+  technologies: [
+    {
+      name: "React",
+      icon: _React,
+    },
+    {
+      name: "TypeScript",
+      icon: TypescriptIcon,
+    },
+    {
+      name: "Next.js",
+      icon: NextjsIcon,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: TailwindIcon,
+    },
+  ],
+  link: {
+    demo: "https://arch-studio-beta-lovat.vercel.app/",
+    github: "https://github.com/peterpaing/arch-studio",
+  },
+},
+  {
+    id: 3,
     image: CurrencyExchangeImage,
     title: "Currency Exchange App",
     description:
@@ -109,7 +141,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 3,
+    id: 4,
     image: KanbanTaskManagementImage,
     title: "Kanban Task Management App",
     description:
