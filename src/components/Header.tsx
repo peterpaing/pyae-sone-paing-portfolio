@@ -40,7 +40,7 @@ export default function Header({ darkMode, setDarkMode }: HeaderProps) {
   return (
     <header className="fixed top-0 left-0 z-50 flex w-full items-center justify-between border-b border-neutral-300 bg-[#E8ECE6] px-4 py-4 text-neutral-800 transition-colors duration-300 motion-reduce:transition-none dark:border-neutral-700 dark:bg-zinc-950 dark:text-neutral-300 md:px-6">
       <p className="font-bebas text-lg tracking-wider text-neutral-800 dark:text-zinc-300">
-        Pyae Sone Paing
+        Portfolio
       </p>
 
       <nav aria-label="Primary navigation" className="flex items-center gap-4 font-inter text-sm">
