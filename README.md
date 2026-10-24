@@ -1,6 +1,8 @@
 # Pyae Sone Paing Portfolio
 
-A responsive personal portfolio website for **Pyae Sone Paing**, a Yangon-based front-end developer. The site highlights selected projects, professional certificates, technical skills, contact details, social profiles, and a downloadable resume.
+A responsive personal portfolio for Pyae Sone Paing, a full-stack developer. It showcases selected projects, technical skills, certificates, and contact information.
+
+[View Portfolio](https://pyaesonepaing.com/)
 
 ## Preview
 
@@ -8,21 +10,35 @@ A responsive personal portfolio website for **Pyae Sone Paing**, a Yangon-based 
 
 ## Features
 
-- Responsive layout for mobile, tablet, and desktop screens
-- Light and dark mode
-- Featured project cards with live-demo and GitHub links
-- Certificates page with external certificate links
-- Technology and skills overview
-- Contact section, social-media links, and resume link
-- Accessibility-focused UI, including:
-  - Semantic headings, sections, articles, lists, and project details
-  - Keyboard-visible focus styles
-  - Accessible names for icon-only controls and social links
-  - Descriptive alternative text for portfolio images
-  - Screen-reader-friendly decorative icons
-  - Reduced-motion support for hover animations
+- Responsive layouts for mobile, tablet, and desktop
+- Light and dark themes
+- Featured projects with live demos, source code, and technology details
+- Frontend, backend, database, and tooling skills
+- Certificates with external verification links
+- Contact information, social links, and downloadable resume
+- Accessibility-focused implementation:
+  - Semantic HTML and descriptive headings
+  - Visible keyboard focus indicators
+  - Accessible labels for icon-only controls
+  - Descriptive image alternative text
+  - Decorative icons hidden from screen readers
+  - Reduced-motion support
+
+## Featured Project
+
+### StackWing
+
+A full-stack developer job-search application that brings listings from multiple job boards into one place.
+
+Features include saved jobs, application tracking, profile-based matching, AI-assisted profile extraction, and job-specific AI chat.
+
+Built with Next.js, TypeScript, Node.js, Express, PostgreSQL, and Drizzle ORM, with Clerk authentication and Stripe subscription billing.
+
+[Explore StackWing](https://stackwingjobs.com)
 
 ## Built With
+
+The portfolio website uses:
 
 - React
 - TypeScript
@@ -35,35 +51,35 @@ A responsive personal portfolio website for **Pyae Sone Paing**, a Yangon-based 
 
 ### Prerequisites
 
-Install a current LTS version of [Node.js](https://nodejs.org/).
+Install a supported LTS version of [Node.js](https://nodejs.org/).
 
 ### Installation
 
-1. Clone the repository.
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/peterpaing/Portfolio.git
    ```
 
-2. Open the project folder.
+2. Open the project folder:
 
    ```bash
    cd Portfolio
    ```
 
-3. Install dependencies.
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server.
+4. Start the development server:
 
    ```bash
    npm run dev
    ```
 
-5. Open the local URL shown in your terminal, usually `http://localhost:5173`.
+5. Open the URL shown in your terminal, usually `http://localhost:5173`.
 
 ## Available Scripts
 
@@ -77,35 +93,44 @@ npm run preview  # Preview the production build locally
 
 ```text
 src/
-├── assets/           # Profile, certificate, and project images
-├── components/       # Reusable page components
-├── data/             # Portfolio project and certificate data
-├── pages/            # Route-level pages
+├── assets/       # Profile, certificate, and project images
+├── components/   # Reusable page components
+├── data/         # Project and certificate data
+├── pages/        # Route-level pages
 ├── App.tsx
 └── main.tsx
 
-public/
-└── Pyae_Sone_Paing_Junior_Frontend_Developer_Resume.pdf
+public/           # Static files, including the downloadable resume
+docs/
+└── images/
+    └── portfolio-preview.png
 ```
 
 ## Accessibility
 
-This project aims to follow practical WCAG 2.2 AA accessibility practices. It uses native HTML elements wherever possible, clear heading hierarchy, labelled interactive controls, keyboard focus indicators, and accessible external links.
+The portfolio is built with accessibility in mind, including semantic HTML, keyboard navigation, visible focus states, and labelled controls. These practices do not constitute a formal accessibility audit or guarantee conformance.
 
-If you add new content, make sure to:
+When adding content:
 
-- Provide meaningful `alt` text for informative images.
-- Add an accessible label to icon-only links and buttons.
-- Keep headings in order without skipping levels.
-- Ensure new text and focus indicators have sufficient contrast.
-- Test all interactions using only the keyboard.
+- Write meaningful alternative text for informative images.
+- Label icon-only buttons and links.
+- Maintain a logical heading hierarchy.
+- Check text and focus-indicator contrast.
+- Test interactions using only the keyboard.
+- Respect reduced-motion preferences.
+
+## Design Credits
+
+Some featured projects implement designs supplied by Frontend Mentor. Relevant project descriptions identify those implementations; design ownership is not claimed.
 
 ## Contact
 
-- Email: [pyaesonepaing104@gmail.com](mailto:pyaesonepaing104@gmail.com)
-- GitHub: [github.com/peterpaing](https://github.com/peterpaing)
-- LinkedIn: [Pyae Sone Paing](https://www.linkedin.com/in/pyae-sone-paing-06a283418/)
+- [Email](mailto:pyaesonepaing104@gmail.com)
+- [GitHub](https://github.com/peterpaing)
+- [LinkedIn](https://www.linkedin.com/in/pyae-sone-paing-06a283418/)
 
 ## License
 
-This project is for personal portfolio use. All rights reserved.
+Original portfolio content and code: all rights reserved unless otherwise stated.
+
+Third-party libraries, icons, logos, and project design assets remain subject to their respective licenses and owners’ rights.

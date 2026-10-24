@@ -19,14 +19,9 @@ import AudiophileStoreImage from "./../assets/projects/audiophile.png"
 import ArchStudioImage from "./../assets/projects/archStudio.png"
 import StackWingImage from "./../assets/projects/stackwing.png"
 import FrontEnd from "./../assets/certificates/Front-end.png"
-import JavaScript from "./../assets/certificates/JavaScript.png"
-import React from "./../assets/certificates/React.png"
+import BackendPath from "./../assets/certificates/Back-end.png"
 import Nextjs from "./../assets/certificates/Nextjs.png"
-import Tailwind from "./../assets/certificates/tailwind.png"
 import TypeScript from "./../assets/certificates/TypeScript.png"
-import Responsive from "./../assets/certificates/Responsive.png"
-import Git from "./../assets/certificates/Git.png"
-import Vite from "./../assets/certificates/Vite.png"
 import AiEngineering from "./../assets/certificates/Ai-engineering.png"
 
 type Technology = {
@@ -270,73 +265,38 @@ export const projects: Project[] = [
 
 export const certificates = [
   {
-    title: "Learn Next.js",
-    image: Nextjs,
-    month: "August",
-    year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2ffentAFPFfDHTUTVhUMXADevcWYwtycSjPFt6T7YzfkqQ"
-  },
-  {
-    title: "Learn Tailwind CSS",
-    image: Tailwind,
-    month: "August",
-    year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2JbLs3qgBjmnFD6isMRp8qvw8tvN4tdyUJ664U"
-  },
-  {
-    title: "Learn React",
-    image: React,
-    month: "July",
-    year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert24zAwPPowYSZ13jz4hsZrfqFQfj4jHFyX2cEL"
+    title: "Backend Developer Path",
+    image: BackendPath,
+    month: "October", 
+    year: "2026", // Actual issue year
+    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2ffentAFPFfDHTUTVhUMXCxKoyt1ieVCiG35siqDyRDKsp",
   },
   {
     title: "Front-End Developer Career Path",
     image: FrontEnd,
     month: "July",
     year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert24zAwPPowYSZ13jz4hsZrfrVKc8WhjECs6WFr"
+    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert24zAwPPowYSZ13jz4hsZrfrVKc8WhjECs6WFr",
+  },
+  {
+    title: "Learn Next.js",
+    image: Nextjs,
+    month: "August",
+    year: "2026",
+    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2ffentAFPFfDHTUTVhUMXADevcWYwtycSjPFt6T7YzfkqQ",
   },
   {
     title: "Learn TypeScript",
     image: TypeScript,
     month: "July",
     year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2JbLs3qgBjmnFD6isMRp8qyLkGYHVUewP1z9Gv"
-  },
-  {
-    title: "Learn Git",
-    image: Git,
-    month: "July",
-    year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2ffentAFPFfDHTUTVhUMXCLJ3AdyVfjZjFtayBmTuMtbVT"
-  },
-  {
-    title: "Intro to Vite",
-    image: Vite,
-    month: "July",
-    year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2ffentAFPFfDHTUTVhUMXAG5y5VvWg6eZM91HQSbCJHyTo"
-  },
-  {
-    title: "Learn JavaScript",
-    image: JavaScript,
-    month: "June",
-    year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert24zAwPPowYSZ13jz4hsZrfuTurhb3CkkuBWG4"
+    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2JbLs3qgBjmnFD6isMRp8qyLkGYHVUewP1z9Gv",
   },
   {
     title: "Intro to AI Engineering",
     image: AiEngineering,
     month: "June",
     year: "2026",
-    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2JbLs3qgBjmnFD6isMRp8qy8bXM86wU38DwLrY"
-  },
-  {
-    title: "Responsive Web Design",
-    image: Responsive,
-    month: "May",
-    year: "2026",
-    link: "https://www.freecodecamp.org/certification/guanqt/responsive-web-design-v9"
+    link: "https://scrimba.com/@PyaeSonePaing-104:certs;cert2JbLs3qgBjmnFD6isMRp8qy8bXM86wU38DwLrY",
   },
 ]

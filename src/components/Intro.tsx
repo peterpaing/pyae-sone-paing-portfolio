@@ -13,8 +13,8 @@ export default function Intro() {
         </h1>
 
         <p className="mt-2 font-manrope text-base text-neutral-600 dark:text-neutral-400 md:text-lg">
-          A Yangon based front-end developer passionate about building accessible
-          and user friendly websites.
+          A full-stack developer building accessible interfaces and reliable backend
+          systems for user-friendly web applications
         </p>
 
         <div className="my-4 flex items-center gap-4 md:mt-10">
